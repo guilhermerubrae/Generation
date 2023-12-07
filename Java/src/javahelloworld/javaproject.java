@@ -1,8 +1,8 @@
-package javaproject;
+package javahelloworld;
 
 import java.util.Scanner;
 
-public class Java01 {
+public class javaproject {
 
 public static void main(String[] args) {
 		
