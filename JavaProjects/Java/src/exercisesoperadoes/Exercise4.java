@@ -1,4 +1,4 @@
-package javaexercises;
+package exercisesoperadoes;
 
 public class Exercise4 {
 

@@ -1,8 +1,8 @@
-package javaexercises;
+package exercisesoperadoes;
 
 import java.util.Scanner;
 
-public class Exercise01 {
+public class Exercise1 {
 
 	public static void main(String[] args) {
 		
