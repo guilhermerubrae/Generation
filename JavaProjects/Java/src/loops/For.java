@@ -6,18 +6,16 @@ public class For {
 
 	public static void main(String[] args) {
 
-		Scanner leia = new Scanner(System.in);
+		try (Scanner leia = new Scanner(System.in)) {
+			int contador;
 
-		String nome;
-		int contador;
+			System.out.println("\nAs vagas são limitadas, INSCREVA-SE JÁ!");
 
-		System.out.println("\nAs vagas são limitadas, INSCREVA-SE JÁ!");
-
-		for (contador = 1; contador < 4; contador++) {
-			System.out.println("\nVocê foi o " + contador + "! Nome: ");
-			nome = leia.nextLine();
+			for (contador = 1; contador < 4; contador++) {
+				System.out.println("\nVocê foi o " + contador + "!");
+			}
 		}
-		
+
 		System.out.println("\nVagas esgotadas.");
 	}
 
