@@ -11,7 +11,7 @@ public class OpUnáriosAtribuição {
 		
 		x =y++;
 		
-		System.out.println("\nValor de X: " + x);
+		System.out.println("\nValor de X: " + x); // x recebe o valor de y e y é incrementado
 		System.out.println("\nValor de Y: " + y);
 	}
 }
