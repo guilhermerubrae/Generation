@@ -1,8 +1,8 @@
-package collections;
+package StructureOfDatas;
 
 import java.util.Stack;
 
-public class CollectionsPilha {
+public class Pilha {
 	public static void main(String[] args) {
 
 		Stack<String> pilha = new Stack<String>();

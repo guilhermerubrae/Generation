@@ -1,22 +1,21 @@
-package exercisesCollections;
+package exercisesDatas;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
+import java.util.Stack;
 
-public class Fila {
+public class ExercisePilha {
 
 	public static void main(String[] args) {
 		try (Scanner leia = new Scanner(System.in)) {
-			Queue<String> cliente = new LinkedList<String>();
+			Stack<String> livros = new Stack<String>();
 
 			int op;
 
 			System.out.println("-".repeat(70));
 			System.out.println("\n\t\tMenu de Agendamento");
-			System.out.println("\n(1) Adicionar Cliente na Fila");
-			System.out.println("\n(2) Listar Clientes");
-			System.out.println("\n(3) Retirar Cliente na Fila");
+			System.out.println("\n(1) Adicionar Livro na Pilha");
+			System.out.println("\n(2) Listar Livros");
+			System.out.println("\n(3) Retirar Livro da Pilha");
 			System.out.println("\n(0) Sair");
 			System.out.println("-".repeat(70));
 
@@ -28,30 +27,30 @@ public class Fila {
 				case 1:
 					System.out.println("\nDigite o nome: ");
 					leia.nextLine();
-					cliente.add(leia.nextLine());
+					livros.push(leia.nextLine());
 					System.out.println("\nFila:\n");
-					for (String nome : cliente) {// Percorrendo para listar name
+					for (String nome : livros) {// Percorrendo para listar name
 						System.out.println(nome);
 					}
-					System.out.println("\nCliente Adicionado!");
+					System.out.println("\nLivro adicionado!");
 					leia.nextLine();
 					break;
 				case 2:
-					System.out.println("\nLista de Clientes na Fila: ");
-					for (String nome : cliente) {
+					System.out.println("\nLista de de Livros na Pilha: ");
+					for (String nome : livros) {
 						System.out.println(nome);
 					}
 					break;
 				case 3:
 					leia.nextLine();
-					if (!cliente.isEmpty()) {
-						cliente.remove();
+					if (!livros.isEmpty()) {
+						livros.pop();
 						System.out.println("\nFila:\n");
-						for (String nome : cliente) {
+						for (String nome : livros) {
 							System.out.println(nome);
-						}System.out.println("\nO Cliente foi Chamado!");//Fora do loop para não interferir
+						}System.out.println("\nUm Livro foi retirado da pilha!");//Fora do loop para não interferir
 					} else {
-						System.out.println("\nA fila está vazia!");
+						System.out.println("\nA Pilha está vazia!");
 					}
 					break;
 				case 0:
@@ -66,3 +65,4 @@ public class Fila {
 	}
 
 }
+

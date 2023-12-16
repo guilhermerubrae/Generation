@@ -1,10 +1,10 @@
-package collections;
+package StructureOfDatas;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class CollectionsFila {
+public class Fila {
 	public static void main(String[] args) {
 		Queue<String> agenda = new LinkedList<String>();
 		Scanner ler = new Scanner(System.in);

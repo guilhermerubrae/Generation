@@ -1,4 +1,4 @@
-package exercisesCollections;
+package exercisesDatas;
 
 import java.util.ArrayList;
 import java.util.Scanner;
