@@ -1,4 +1,4 @@
-package StructureOfDatas;
+package DataStructure;
 
 import java.util.Stack;
 
