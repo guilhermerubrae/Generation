@@ -15,7 +15,7 @@ Este repositório abriga uma coleção de exercícios e desafios que são parte 
 ## Contato
 
 - **Email:** guilhermerubrae@gmail.com
-**LinkedIn:** [LinkedIn - Guilherme Abreu Do Nascimento](https://www.linkedin.com/in/guilhermerubrae/)
-Juntos, estamos construindo as bases para uma comunidade de desenvolvedores web Java próspera e inovadora!
+-**LinkedIn:** [LinkedIn - Guilherme Abreu Do Nascimento](https://www.linkedin.com/in/guilhermerubrae/)
+-Juntos, estamos construindo as bases para uma comunidade de desenvolvedores web Java próspera e inovadora!
 
 **Vamos codificar com paixão e determinação! 🚀**
