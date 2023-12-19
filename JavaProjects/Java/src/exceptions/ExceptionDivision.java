@@ -26,6 +26,7 @@ public class ExceptionDivision {
 
         } catch (InputMismatchException e) {
             System.err.println("\nException: " + e);
+            /**Comando para printar na tela um erro, formatação mais adequada, com coloração vermelha.**/
             System.out.println("\nDigite números inteiros positivos");
 
         } catch (ArithmeticException e) {
